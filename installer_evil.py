@@ -1,4 +1,4 @@
-import urllib.request
+import urllib.request, subprocess
 
 input("Installing file 'evil' from 'https://iksman.com/projects/md5' >>")
 urllib.request.urlretrieve("https://iksman.com/projects/md5/evil" , "evil")
